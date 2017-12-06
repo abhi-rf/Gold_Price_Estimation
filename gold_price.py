@@ -65,7 +65,7 @@ testScore = testScore.reshape(testScore_size,-1)
 #print('Test Score: ', scaler.inverse_transform(numpy.array([[testScore]])))
 print('Test Score: ', testScore)
 
-# generate predictions for training
+
 trainPredict = model.predict(trainX)
 testPredict = model.predict(testX)
 
